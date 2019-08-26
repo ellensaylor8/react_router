@@ -11,9 +11,9 @@ class App extends Component {
       <Router>
         <div className="App">
           <div className="row">
-            <div className="col-sm"><Link to="/">Home</Link></div>
-            <div className="col-sm"><Link to="/Portfolio">Portfolio</Link></div>
-            <div className="col-sm"><Link to="/Contact">Contact</Link></div>
+            <div className="col-sm"><Link className="navLink" to="/">Home</Link></div>
+            <div className="col-sm"><Link className="navLink" to="/Portfolio">Portfolio</Link></div>
+            <div className="col-sm"><Link className="navLink" to="/Contact">Contact</Link></div>
           </div>
 
           <Route exact path="/" component={Home} />
